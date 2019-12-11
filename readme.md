@@ -1,8 +1,8 @@
-# _ _
+# _Rock Paper Scissors_
 
 #### _  _
 
-#### By _**Michael Wells**_
+#### By _****_
 
 ## Description
 
@@ -42,4 +42,4 @@ _and was built on Atom_
 
 *Licensed under MIT license*
 
-Copyright (c) 2019 **_Michael Wells_**
+Copyright (c) 2019 **__**
