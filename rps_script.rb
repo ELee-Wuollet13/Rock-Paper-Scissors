@@ -2,14 +2,15 @@
 
 require ('./lib/rps')
 
-
-game = RPS.new("rock", "rock")
+game = RPS.new("hand", "hand")
 until (game.score1 === 5) | (game.score2 === 5)
   puts 'player one throws:'
-  throw1 = gets.chomp
+  hand = gets.chomp
   throw2 = game.computer
+  game.throw(hand)
+  puts "you:" + hand
   puts "computer: "+ throw2
-  puts game.wins?
+  puts "win? " + game.wins?.to_s
   puts game.win_count
   if game.score1 === 5
     puts "WINNER!"
